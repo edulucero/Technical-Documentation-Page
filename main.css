@@ -1,0 +1,63 @@
+
+html {
+		font-family: 'Open Sans',Arial,sans-serif;
+		line-height: 1.5;
+		font-weight: thin;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 325px auto;
+	grid-template-areas: "nav main";
+
+}
+
+#navbar {
+
+	grid-area: nav;
+	position: fixed;
+	border-right: solid;
+	height: 100%;
+	width: 270px;
+}
+
+#main-doc {
+	grid-area: main;
+	padding-right: 20px;
+}
+
+nav ul {
+	list-style: none;
+	cursor: pointer;
+}
+
+nav h1 {
+	text-align: center;
+}
+
+nav li {
+	border-width: 100%;
+	line-height: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+code {
+	background-color: #f7f7f7;
+	display: block;
+	text-align: left;
+	margin-left: 30px;
+	line-height: 1.5;
+	width: 90%;
+}
+
+p {
+	margin-left: 10px;
+}
+
+main ul {
+	margin-left: 20px;
+}
